@@ -1,5 +1,6 @@
 import React from 'react';
 import Sidenav from 'react-simple-sidenav';
+import { SideNavItems } from './sidenav_items';
 
 export const SideNav = (props) => {
   return (
@@ -11,7 +12,7 @@ export const SideNav = (props) => {
         maxWidth: '220px'
       }}
     >
-      Items
+      <SideNavItems />
     </Sidenav>
   )
 }
